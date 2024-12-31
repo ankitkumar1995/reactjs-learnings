@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import ProgressBar from "./components/customComponents/ProgressBar";
+import WindowResizeElements from "./components/WindowResizeElements";
+import ElementResize from "./components/ElementResize";
+import DesignPattern from "./components/designPattern";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <ProgressBar /> */}
+      {/* <WindowResizeElements /> */}
+      <DesignPattern />
+      {/* <ElementResize /> */}
     </div>
   );
 }
